@@ -1,12 +1,13 @@
-package mvc;
+import controlers.Auth;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			AuthController test = new AuthController();
-			
-			test.login();;
+
+		Auth sistema = new Auth();
+		
+		sistema.login();
 	}
 
 }
